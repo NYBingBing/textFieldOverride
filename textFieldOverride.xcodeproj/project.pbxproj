@@ -15,6 +15,7 @@
 		93B6C9421D0FCEC700FD0D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B6C9401D0FCEC700FD0D77 /* LaunchScreen.storyboard */; };
 		93B6C94D1D0FCEC800FD0D77 /* textFieldOverrideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6C94C1D0FCEC800FD0D77 /* textFieldOverrideTests.m */; };
 		93B6C9581D0FCEC800FD0D77 /* textFieldOverrideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6C9571D0FCEC800FD0D77 /* textFieldOverrideUITests.m */; };
+		93B6C9671D0FD10100FD0D77 /* PositionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6C9661D0FD10100FD0D77 /* PositionTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		93B6C9531D0FCEC800FD0D77 /* textFieldOverrideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textFieldOverrideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B6C9571D0FCEC800FD0D77 /* textFieldOverrideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textFieldOverrideUITests.m; sourceTree = "<group>"; };
 		93B6C9591D0FCEC800FD0D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B6C9651D0FD10100FD0D77 /* PositionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionTextField.h; sourceTree = "<group>"; };
+		93B6C9661D0FD10100FD0D77 /* PositionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				93B6C9351D0FCEC700FD0D77 /* AppDelegate.h */,
 				93B6C9361D0FCEC700FD0D77 /* AppDelegate.m */,
+				93B6C9651D0FD10100FD0D77 /* PositionTextField.h */,
+				93B6C9661D0FD10100FD0D77 /* PositionTextField.m */,
 				93B6C9381D0FCEC700FD0D77 /* ViewController.h */,
 				93B6C9391D0FCEC700FD0D77 /* ViewController.m */,
 				93B6C93B1D0FCEC700FD0D77 /* Main.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B6C9671D0FD10100FD0D77 /* PositionTextField.m in Sources */,
 				93B6C93A1D0FCEC700FD0D77 /* ViewController.m in Sources */,
 				93B6C9371D0FCEC700FD0D77 /* AppDelegate.m in Sources */,
 				93B6C9341D0FCEC700FD0D77 /* main.m in Sources */,
